@@ -8,9 +8,9 @@ import random
 from game.game1.game1card import Card
 
 class Deck:
-    DEFAULT_LOW_TYPES    = ["2s", "3s", "4s", "5s", "6s", "7s", "8s", "9s", "10s"]
-    DEFAULT_MEDIUM_TYPES = ["Js", "Qs", "Ks"]
-    DEFAULT_HIGH_TYPES   = ["As"]
+    DEFAULT_LOW_TYPES    = ["2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    DEFAULT_MEDIUM_TYPES = ["J", "Q", "K"]
+    DEFAULT_HIGH_TYPES   = ["A"]
 
     def __init__(
         self,
